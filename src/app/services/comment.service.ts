@@ -12,7 +12,7 @@ export class CommentService {
 
   comment!: Comment ;
   message!: String;
-  private apiURL = 'http://localhost:5432/comment/';
+  private apiURL = 'http://localhost:8001/comment/';
   constructor(private http: HttpClient) { }
 
 

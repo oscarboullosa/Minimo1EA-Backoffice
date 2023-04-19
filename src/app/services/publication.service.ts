@@ -12,7 +12,7 @@ export class PublicationService {
 
   publication!: Publication;
   message!: String;
-  private apiURL = 'http://localhost:5432/publication/';
+  private apiURL = 'http://localhost:8001/publication/';
   constructor(private http: HttpClient) { }
 
 

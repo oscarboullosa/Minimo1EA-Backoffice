@@ -15,7 +15,7 @@ export class AuthService {
   user!: User;
   userData!: Auth;
 
-  private apiURL = 'http://localhost:5432/auth/';
+  private apiURL = 'http://localhost:8001/auth/';
 
   constructor(private http: HttpClient) { }
 
