@@ -31,6 +31,11 @@ import { PublicationCreateComponent } from './components/publication-components/
 import { PublicationDetailsComponent } from './components/publication-components/publication-details/publication-details.component';
 import { PublicationEditComponent } from './components/publication-components/publication-edit/publication-edit.component';
 import { CommentResponseComponent } from './components/comment-components/comment-response/comment-response.component';
+import { GestorComponent } from './components/gestor-component/gestor/gestor.component';
+import { GestorCreateComponent } from './components/gestor-component/gestor-create/gestor-create.component';
+import { GestorDetailsComponent } from './components/gestor-component/gestor-details/gestor-details.component';
+import { GestorEditComponent } from './components/gestor-component/gestor-edit/gestor-edit.component';
+
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -58,7 +63,15 @@ const routes: Routes = [
   { path:'publication',component: PublicationComponent },
   { path:'publication-create',component: PublicationCreateComponent },
   { path:'publication-details/:id',component: PublicationDetailsComponent },
-  { path:'publication-edit/:id',component: PublicationEditComponent }
+  { path:'publication-edit/:id',component: PublicationEditComponent },
+  { path:'gestor',component:GestorComponent},
+  { path:'gestor-create',component:GestorCreateComponent},
+  { path:'gestor-details/:id',component:GestorDetailsComponent},
+  { path:'gestor-edit/:id',component:GestorEditComponent},
+
+
+
+
 
 
 
@@ -94,6 +107,10 @@ const routes: Routes = [
     PublicationDetailsComponent,
     PublicationEditComponent,
     CommentResponseComponent,
+    GestorCreateComponent,
+    GestorComponent,
+    GestorDetailsComponent,
+    GestorEditComponent
   ],
   imports: [
     BrowserModule,

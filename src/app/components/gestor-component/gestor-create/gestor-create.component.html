@@ -1,0 +1,27 @@
+<confirmation-modal
+  [isOpen]="isModalOpen"
+  (acceptChanges)="onAcceptChanges()"
+  (cancelChanges)="onCancelChanges()"
+></confirmation-modal>
+<h2 class="text-center">Crear gestor</h2>
+<form [formGroup]="gesForm" (ngSubmit)="onSubmit()" class="row g-3">
+   <div class="form-group">
+    <label for="estado">Estado:</label>
+    <select id="estado" formControlName="estado" class="form-control">
+      <option value="online">Online</option>
+      <option value="offline">Offline</option>
+    </select>
+  </div>
+   <div class="form-group form-check">
+    <input
+      type="checkbox"
+      class="form-check-input"
+      id="disponible"
+      name="disponible"
+    />
+    <label class="form-check-label" for="disponible">Disponible</label>
+  </div>
+
+
+    <button class="btn btn-primary" (click)="openModal()">Guardar cambios</button>
+</form>

@@ -1,0 +1,96 @@
+/* Estilo para la tabla */
+.table {
+  border: 2px solid #ddd;
+  font-size: 14px;
+}
+
+/* Estilo para los encabezados de la tabla */
+.table thead th {
+  background-color: #f1f1f1;
+  border: 2px solid #ddd;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Estilo para las filas impares de la tabla */
+.table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo para las celdas de la tabla */
+.table td {
+  border: 2px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Estilo para el botón Detalles */
+.btn-details {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+/* Estilo para el botón Editar */
+.btn-edit {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+}
+
+/* Estilo para el botón Nuevo Gestor */
+.btn-new {
+  background-color: #6c757d;
+  border: none;
+  color: #fff;
+}
+
+/* Estilo para el botón Ver todos */
+.btn-all {
+  background-color: #ffc107;
+  border: none;
+  color: #fff;
+}
+
+/* Estilo para los badges */
+.badge {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Estilo para la cruz roja */
+.fa-times {
+  margin-right: 5px;
+}
+
+/* Estilo para la tabla si está no disponible */
+.bg-danger {
+  background-color: #ffb4a2;
+}
+
+/* Estilo para la tabla si está disponible */
+.bg-success {
+  background-color: #c3e6cb;
+}
+
+/* Estilo para el input */
+.input-group input {
+  border-radius: 25px;
+}
+
+/* Estilo para el container */
+.container {
+  margin-top: 50px;
+}
+
+/* Estilo para el título */
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
